@@ -137,7 +137,6 @@ def compute_playlist_stats(playlists: PlaylistMap) -> Dict[str, object]:
         "top_artist_count": top_count,
     }
 
-    
 
 def most_common_artist(songs: List[Song]) -> Tuple[str, int]:
     """Return the most common artist and count."""
